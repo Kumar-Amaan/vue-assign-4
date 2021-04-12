@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(221, 242, 243);
+  color: rgb(21, 26, 26);
+}
+/* a.router-link {
+  position: relative;
+  top: -250px;
+  left: 200px;
+  color: burlywood;
+} */
+/* a{
+    position: relative;
+    bottom: 95.6%;
+    right: 24%;
+} */
+
+  button{
+    position: relative;
+     top: -260px;
+     right: 40%;
+     margin: 2px;
+     /* position: fixed; */
+     padding: 4px;
+     border: 2px solid blue;
+ 
+
+}
+#area {
+	font-family: "Montserrat";
+	text-align: center;
+	color: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 1px;
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: .75;
+	margin: 20px 0; 
+}
+.about {
+	font-family: "Montserrat";
+	text-align: center;
+	color: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 1px;
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: .75;
+	margin: 20px 0; 
+}
+
+
+
+
+
+/* 
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+} */
+
+body {
+  background: yellowgreen;
+}
+
+.container {
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.container span {
+  display: block;
+}
+
+.text1 {
+  color: white;
+  font-size: 70px;
+  font-weight: 300;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  background: yellowgreen;
+  position: relative;
+  animation: text 3s 1;
+}
+
+.text2 {
+  font-size: 20px;
+  color: rgb(34, 212, 34);
+  font-family: Georgia, serif;
+}
+
+@keyframes text {
+  0% {
+      color: black;
+      margin-bottom: -40px;
+  }
+
+  30% {
+      letter-spacing: 25px;
+      margin-bottom: -40px;
+  }
+
+  85% {
+      letter-spacing: 8px;
+      margin-bottom: -40px;
+      
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
